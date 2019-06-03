@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+#text {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    margin-top: 300px;
+}
+
+#infini-p {
+    vertical-align: bottom;
+    text-align: center;
+    margin-top: calc(100vh - 525px);
+    font-size: 25px;
+    white-space: pre;
+    font-family: 'Courier New', Courier, monospace;
+}
