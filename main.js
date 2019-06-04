@@ -9,10 +9,6 @@ window.onload = function() {
 window.onscroll = function() {
     let body = document.body;
     let height = body.offsetHeight;
-    console.log(height - window.innerHeight);
-    console.log(window.pageYOffset);
-    console.log("");
-    
 
     if (height - window.innerHeight <= window.pageYOffset) {
         document.getElementById("infini-p").innerHTML += "\r\n     ||     ||     "
